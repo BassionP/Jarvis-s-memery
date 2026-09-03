@@ -1,4 +1,4 @@
-User's Hermes skills directory is symlinked to ~/Jarvis/skills/ (private GitHub repo BassionP/Jarvis---Bassion-Paul). PAT remote for push + gh CLI authed as BassionP.
+Skills目录symlink→~/Jarvis/skills/(BassionP/Jarvis---Bassion-Paul);记忆备份仓库BassionP/Jarvis-s-memery(均private)。gh CLI已认证BassionP,PAT可push。
 §
 SLS(阿里日志)用于RTC监控(bad-room-user+kick_hack_rtc,按uid/roomId/svip分组)。方言受限:无count(distinct) over(),cross join不稳,多查询告警最稳。另有live_server_event_loghub事件表(uid/type/ds分区yyyymmdd)JOIN用户全量表tod_hapi_user_info_mongo(uid联表键,ext为JSON含thirdEmail/bindFacebook/bindApple/bindGoogle,json_extract(ext,'$.key')取值)。
 §
