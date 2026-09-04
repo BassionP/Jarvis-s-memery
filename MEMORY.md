@@ -16,7 +16,7 @@ Hapi语音审核：日均200h阿语音频、准实时，选满血large-v3(非tur
 §
 BytePlus国际控制台console.byteplus.com被Akamai按IP拦机房/VPN(403 TCP_DENIED),需住宅IP;www.byteplus.com与console.volcengine.com不受影响。
 §
-钉钉文档/表格经config.yaml的4个MCP访问(勿用浏览器,有OAuth登录墙):dingtalk-docs仅adoc;dingtalk-able仅AI表格able;dingtalk-sheet读写普通表格axls(get_all_sheets/get_range/set_cell_range)。用户发[DeviceInfo]设备上报数据让填表/校验,布尔统一大写TRUE/FALSE。
+钉钉文档/表格经config.yaml的4个MCP访问(勿用浏览器,有OAuth登录墙):dingtalk-docs仅adoc(脑图amind无MCP读);dingtalk-able仅AI表格able;dingtalk-sheet读写普通表格axls(get_all_sheets/get_range/set_cell_range)。用户发[DeviceInfo]设备上报数据让填表/校验,布尔统一大写TRUE/FALSE。
 §
 Hapi非SVIP送礼占比~42%。货币:钻石=充值,筹码(类型13)=金币1:1。送礼LuckyGift最大消耗76-92万/天,资金主源=钻石换金币(收礼钻石3.3:1换币,库存非增发~30%)+升级活动(升到等级白送纯增发~20%);宝箱/roomsupport/family/magicball/event=消费返利(花→按比例反),红包=用户间转移。宝箱风控对送礼影响仅0.3-0.5%。白桢国(风控)负责宝箱/拉新/僵尸。事件分析xlsx正=流入负=流出。
 §
@@ -24,6 +24,6 @@ Hapi非SVIP送礼占比~42%。货币:钻石=充值,筹码(类型13)=金币1:1。
 §
 IP段拉黑输出a.b.c格式(不带.*)竖写每行一个可逗号隔开;IPv6不写(WARP归薅羊毛)。
 §
-Python:pandas分析须用hermes venv python(~/.hermes/hermes-agent/venv/bin/python3),系统python3=3.9.6的pandas坏。
-§
 黑产vs薅羊毛(用户权威):黑产=工具号=只送礼不收礼+批量≥10同特征+无社交+低充≤600万→封禁;薅羊毛=有收有送+≤50+有社交+低充≤600万→限制。静态字段(数字名/区号/选国/零充)只是候选,区分靠行为信号(送礼收礼/批量/社交)在事件流水表。数字名30x最稳,区号/选国/设备每日漂移。
+§
+风控效果评估:短期=操作后一周vs上周同期,长期=操作后vs操作前基线(累积效果,单次看短期)。复盘卡片=动作/数据表现(短期+长期)/达成度/问题/教训。钉钉'P的领域'知识库workspaceId=vr4zEOpQM29MrmDY。风控数据文件在~/Documents和~/Downloads。
