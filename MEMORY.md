@@ -12,13 +12,13 @@ Race Online AS63969拉整ASN。印尼编号名多开(Warsa 05/Nomor 1等,110.138
 §
 Hapi宝箱风控：SVIP充值门槛600万→sv1/1800万→sv2/6000万→sv3。svip2+豁免(成本认了)，IP段黑名单只拦svip0，工具号指纹=累充恰好到阈值(尤600万卡sv1)。金额=次数×2.3万(单次中位,相关0.998)。数据坑:次数/金额文件SVIP字段不一致，金额文件为最新权威。
 §
-Hapi语音审核：日均200h阿语音频、准实时，满血large-v3自建Whisper+阿里云GPU；阿语方言是ASR难点。
+Hapi语音审核:日均200h阿语,自建Whisper large-v3+阿里云GPU,阿语方言是ASR难点。
 §
 BytePlus国际控制台console.byteplus.com被Akamai拦机房/VPN(403 TCP_DENIED),需住宅IP;www.byteplus.com与console.volcengine.com不受影响。
 §
 钉钉文档/表格经config.yaml的4个MCP访问(勿用浏览器,有OAuth登录墙):dingtalk-docs仅adoc(脑图amind无MCP读);dingtalk-able仅AI表格able;dingtalk-sheet读写普通表格axls(get_all_sheets/get_range/set_cell_range)。用户发[DeviceInfo]设备数据填表,布尔大写TRUE/FALSE。
 §
-Hapi非SVIP送礼占比~42%。货币:钻石=充值,筹码(类型13)=金币1:1。资金主源=钻石换金币(收礼钻石3.3:1换币,非增发~30%)+升级活动(升级白送纯增发~20%);宝箱/roomsupport/family/magicball/event=消费返利,红包=用户间转移。宝箱风控对送礼影响仅0.3-0.5%。白桢国负责宝箱/拉新/僵尸。事件分析xlsx正=流入负=流出。
+Hapi非SVIP送礼占比治理目标日均40%(健康值),8月底封黑产压43.2%但9月初回流47%(集中封不持久→持续封+防回流)。月初1号给SVIP发一大笔钱,非SVIP占比压低5-7pp,月初对比须剔除1号
 §
 黑产标注语义：标红=确认黑产(正样本)；未标红≠正常≠误报(不确定,有薅羊毛特征)。黑产=顶级薅羊毛(连续谱)。禁红字率当概率、禁反推「低红字率=干净」,只用lift富集度。评分=梯度:条件越多越黑产。
 §
@@ -33,3 +33,5 @@ Hapi SQL口径:svipLevel=null即非SVIP(未获SVIP),当天现1-11按SVIP(max聚�
 手机号区号是硬信号(选国才漂移):南亚↔中东=正常(劳工),欧洲=疑点,+56智利/IP=高可疑。
 §
 虚拟软件建号:用户名数字+单字母(25654785l式);昵称工整英文(南亚真人不用);单IP多号跨多国。
+§
+中东≠南亚黑产逻辑:中东svip0(活跃91.6%/金币64.6%)=本地零充用户,金币来源钻石换币36.6%+升级活动26.1%(纯增发)+宝箱16%+房间返利8.6%+家族6%,充值≈0,去向93%送礼,有收有送非工具号,本质非充值化。

@@ -12,7 +12,7 @@ Has a GitHub repo BassionP/Jarvis---Bassion-Paul they want to use as a bidirecti
 §
 Technically proficient — manages custom providers, Clash Verge proxy, and custom Hermes config
 §
-Prefers concise, practical instructions in Chinese. Tone must be professional and direct — no casual emojis, no overly familiar/dismissive language (e.g. "别纠结了 😄"), no talking down. Treat technical problems seriously.
+Prefers concise, practical instructions in Chinese. Tone must be professional and direct — no casual emojis, no overly familiar/dismissive language, no talking down. Treat technical problems seriously. 报告/文档直接给最终结论，不展示纠正、错误、推导过程。
 §
 Name: P (BassionP on GitHub). Located in Hong Kong. Primary language: Chinese.
 §
